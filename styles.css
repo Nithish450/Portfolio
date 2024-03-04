@@ -12,7 +12,7 @@
     z-index: 10;
     
 } 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
     #navbar {
         position: relative;
         position: sticky;
@@ -34,7 +34,7 @@
     color: rgb(10, 123, 204);
     
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
     #home{
         position: absolute;
         left:20px;
@@ -55,7 +55,7 @@
     color: rgb(10, 123, 204);
     
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width:480px) {
     #about{
         position: absolute;
         left:160px;
@@ -71,7 +71,7 @@
     color: white;
     text-decoration: none;
 } 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
     #skills{
         position: absolute;
         left:300px;
@@ -93,7 +93,7 @@
 #projects:hover{
     color: rgb(10, 123, 204);
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
     #projects{
         position: absolute;
         left:450px;
@@ -112,7 +112,7 @@
 #certifications:hover{
     color: rgb(10, 123, 204);
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
     #certifications{
         position: absolute;
         left: 630px;
@@ -131,7 +131,7 @@
 #contact:hover{
     color: rgb(10, 123, 204);
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
     #contact
     {
         position: absolute;
@@ -148,7 +148,7 @@
     font-size: 20px;
     text-align: justify;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
     #content{
         position: relative;
         width: 1000px;
@@ -168,7 +168,7 @@
     background-color: white;
     border-radius: 100%;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width:480px) {
     #photo{
         position: relative;
         left:350px;
@@ -192,7 +192,7 @@
     height: 300px;
     
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width:480px) {
     #ph{
         position: absolute;
         width:100px;
@@ -424,7 +424,7 @@
     top: -400px;
     font-size: 20px;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
     #b1{
         background-color: white;
         color: rgb(10, 146, 244);
