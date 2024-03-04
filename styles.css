@@ -12,6 +12,17 @@
     z-index: 10;
     
 } 
+@media only screen and (max-width: 320px) {
+    #navbar {
+        position: relative;
+        position: sticky;
+        background-color: rgb(8,27,41);
+        height: 60px;
+        width: 1060px;
+        top:0px;
+        z-index: 10;
+    }
+  }
 #home{
     position: absolute;
     left:740px;
@@ -23,6 +34,15 @@
     color: rgb(10, 123, 204);
     
 }
+@media only screen and (max-width: 320px) {
+    #home{
+        position: absolute;
+        left:20px;
+        font-size:40px;
+        color: white;
+        text-decoration: none;
+    }
+  }
 
 #about{
     position: absolute;
@@ -35,6 +55,15 @@
     color: rgb(10, 123, 204);
     
 }
+@media only screen and (max-width: 320px) {
+    #about{
+        position: absolute;
+        left:160px;
+        font-size:40px;
+        color: white;
+        text-decoration: none;
+    }
+  }
 #skills{
     position: absolute;
     left:940px;
@@ -42,6 +71,15 @@
     color: white;
     text-decoration: none;
 } 
+@media only screen and (max-width: 320px) {
+    #skills{
+        position: absolute;
+        left:300px;
+        font-size:40px;
+        color: white;
+        text-decoration: none;
+    }
+  }
 #skills:hover{
     color: rgb(10, 123, 204);
 }
@@ -55,6 +93,15 @@
 #projects:hover{
     color: rgb(10, 123, 204);
 }
+@media only screen and (max-width: 320px) {
+    #projects{
+        position: absolute;
+        left:450px;
+        font-size:40px;
+        color: white;
+        text-decoration: none;
+    }
+  }
 #certifications{
     position: absolute;
     left:1150px;
@@ -65,7 +112,15 @@
 #certifications:hover{
     color: rgb(10, 123, 204);
 }
-
+@media only screen and (max-width: 320px) {
+    #certifications{
+        position: absolute;
+        left: 630px;
+        font-size:40px;
+        color: white;
+        text-decoration: none;
+    }
+  }
 #contact{
     position: absolute;
     left:1300px;
@@ -76,6 +131,16 @@
 #contact:hover{
     color: rgb(10, 123, 204);
 }
+@media only screen and (max-width: 320px) {
+    #contact
+    {
+        position: absolute;
+        left: 900px;
+        font-size:40px;
+        color: white;
+        text-decoration: none;
+    }
+  }
 #content{
     width: 1000px;
     color: white;
@@ -83,6 +148,17 @@
     font-size: 20px;
     text-align: justify;
 }
+@media only screen and (max-width: 320px) {
+    #content{
+        position: relative;
+        width: 1000px;
+        color: white;
+        line-height: 1.5;
+        font-size: 40px;
+        text-align: justify;
+        top:500px;
+    }
+  }
 #photo{
     position: relative;
     left:1100px;
@@ -92,6 +168,18 @@
     background-color: white;
     border-radius: 100%;
 }
+@media only screen and (max-width: 320px) {
+    #photo{
+        position: relative;
+        left:350px;
+        top:-1500px;
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        border-radius: 100%;
+    }
+  }
+
 #photo:hover{
     box-shadow: 0 0 20px 5px rgba(10, 123, 204, 0.8);
 }
@@ -104,6 +192,17 @@
     height: 300px;
     
 }
+@media only screen and (max-width: 320px) {
+    #ph{
+        position: absolute;
+        width:100px;
+        left: 50px;
+        top: 50px;
+        width: 300px;
+        height: 300px;
+        
+    }
+  }
 #b{
             
     background-color: rgb(8,27,41);
@@ -325,182 +424,7 @@
     top: -400px;
     font-size: 20px;
 }
-@media only screen and (max-width: 767px) {
-    #navbar {
-        position: relative;
-        position: sticky;
-        background-color: rgb(8,27,41);
-        height: 60px;
-        width: 100%;
-        top:0px;
-        z-index: 10;
-    }
-    #home{
-        position: absolute;
-        left:20px;
-        font-size:40px;
-        color: white;
-        text-decoration: none;
-    }
-    #about{
-        position: absolute;
-        left:160px;
-        font-size:40px;
-        color: white;
-        text-decoration: none;
-    }
-    #skills{
-        position: absolute;
-        left:300px;
-        font-size:40px;
-        color: white;
-        text-decoration: none;
-    }
-    #projects{
-        position: absolute;
-        left:450px;
-        font-size:40px;
-        color: white;
-        text-decoration: none;
-    }
-    #certifications{
-        position: absolute;
-        left: 630px;
-        font-size:40px;
-        color: white;
-        text-decoration: none;
-    }
-    #contact{
-        position: absolute;
-        left: 900px;
-        font-size:40px;
-        color: white;
-        text-decoration: none;
-    }
-    #content{
-        position: relative;
-        width: 100%;
-        color: white;
-        line-height: 1.5;
-        font-size: 40px;
-        text-align: justify;
-        top:500px;
-    }
-    #photo{
-        position: relative;
-        left:350px;
-        top:-1500px;
-        width: 400px;
-        height: 400px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    #ph{
-        position: absolute;
-        width:100px;
-        left: 50px;
-        top: 50px;
-        width: 300px;
-        height: 300px;
-    }
-    #b{
-        background-color: rgb(8,27,41);
-    }
-    #nav{
-        background-color:rgb(10, 123, 204) ;
-        color: white;
-        width: 100%;
-        height: 683px;
-        font-size: 20px;
-        position: relative;
-        position: fixed;
-    }
-    #cer{
-        background-color:  rgb(8,27,41);
-        height: 400px;
-        position: relative;
-        left:0px;
-        top:0px;
-        width: 100%;
-        overflow-x:auto;
-    }
-    #cer2{
-        background-color: rgb(8,27,41);
-        height: 400px;
-        position: relative;
-        left:0px;
-        top:0px;
-        width: 100%;
-        overflow-x:auto;
-    }
-    #cer3{
-        background-color: rgb(8,27,41);
-        height: 400px;
-        position: relative;
-        left:0px;
-        top:0px;
-        width: 100%;
-        overflow-x:auto;
-    }
-    #cer4{
-        background-color: rgb(8,27,41);
-        height: 400px;
-        position: relative;
-        left:0px;
-        top:0px;
-        width: 100%;
-        overflow-x:auto;
-    }
-    #cer5{
-        background-color: rgb(8,27,41);
-        height: 400px;
-        position: relative;
-        left:0px;
-        top:0px;
-        width: 100%;
-        overflow-x:auto;
-    }
-    #cer6{
-        background-color: rgb(8,27,41);
-        height: 400px;
-        position: relative;
-        left:0px;
-        top:-0px;
-        width: 100%;
-        overflow-x:auto;
-    }
-    #photo1{
-        position: relative;
-        left:1000px;
-        top:-450px;
-        width: 400px;
-        height: 400px;
-        background-color: white;
-        border-radius: 100%;
-    }
-    #personaltable1{
-        color: white;
-        font-size: 20px;
-        text-decoration: none;
-    }
-    #personaltable1:hover{
-        color:rgb(10, 123, 204) ;
-        font-size: 20px;
-    }
-    #photo1:hover{
-        box-shadow: 0 0 20px 5px rgba(10, 123, 204, 0.8);
-    }
-    #soft{
-        color: white;
-        font-size: 15px;
-        line-height: 3;
-    }
-    #project1{
-        font-size: 20px;
-        color: white;
-        line-height: 1.5;
-        text-align: justify;
-    }
+@media only screen and (max-width: 320px) {
     #b1{
         background-color: white;
         color: rgb(10, 146, 244);
@@ -513,5 +437,5 @@
         left: 320px;
         font-size: 40px;
     }
-}
+  }
 
