@@ -16,7 +16,7 @@
     #navbar {
         position: relative;
         position: sticky;
-        background-color: rgb(8,27,41);
+        background-color: blue;
         height: 60px;
         width: 1060px;
         top:0px;
